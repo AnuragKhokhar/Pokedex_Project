@@ -11,7 +11,7 @@ function PokemonList() {
             <div className="pokemonLst">Pokemon List</div>
             <div className="pokemon-wrapper">
             {(pokemonListState.isLoading) ? 'Loading....' : 
-                pokemonListState.pokemonList.map((p)=> < Pokemon name={p.name} image = {p.image} key={p.id} id ={p.id} />)
+                pokemonListState.pokemonList.map((p)=> < Pokemon image = {p.image} name={p.name}  key={p.id} id ={p.id} />)
             }
             </div>
             <div className="controls">

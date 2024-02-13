@@ -7,7 +7,11 @@ function App() {
   return (
     <>
     <div className='outer-pokedex'>
-      <Link to="./" ><h1 id="pokedex-heading" >Pokedex</h1></Link>
+      <Link to="./" >
+        <div className='pokwrp'>
+         <img className='pokeball' src="src/assets/pokeball.png"/>  <h1 id="pokedex-heading" >Pokedex</h1>
+         </div>
+      </Link>
       <CustomRoutes/>
     </div>
     </>

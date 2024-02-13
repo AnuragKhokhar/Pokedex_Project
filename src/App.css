@@ -19,3 +19,15 @@
 .outer-pokedex a:visited {
     color: black;
 }
+
+.pokeball{
+    width: 100px;
+    transform: rotate(330deg);
+}
+
+.pokwrp{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
