@@ -8,7 +8,7 @@ function PokemonList() {
 
     return (
         <div className="pokemon-list-wrapper">
-            <div className="pokemonList">Pokemon List</div>
+            <div className="pokemonLst">Pokemon List</div>
             <div className="pokemon-wrapper">
             {(pokemonListState.isLoading) ? 'Loading....' : 
                 pokemonListState.pokemonList.map((p)=> < Pokemon name={p.name} image = {p.image} key={p.id} id ={p.id} />)
