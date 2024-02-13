@@ -1,0 +1,16 @@
+#pokemon-name-search {
+    width: 500px;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    border: 2px solid #ccc; /* Add border for better visual separation */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    background-color: transparent;
+    color: rgb(195, 219, 239);
+  }
+  
+  .Search-wrapper {
+    margin: 0 auto; /* Center the Search-wrapper horizontally */
+    max-width: 600px; /* Set maximum width to prevent the Search-wrapper from expanding too much */
+  }
+  

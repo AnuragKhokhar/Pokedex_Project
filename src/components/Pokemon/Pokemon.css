@@ -1,0 +1,38 @@
+.pokemon {
+    margin-top: 2rem;
+    flex-basis: 20%;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transition: background-color 1s ease; /* Add transition for smoother color change */
+  }
+  
+  .pokemon-name {
+    letter-spacing: 0.25rem;
+    font-size: larger;
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert text to uppercase for stylistic consistency */
+    color: #cac8cc; /* Adjust text color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for depth */
+    padding-bottom: 10px; /* Add padding to the bottom to space out from the content */
+    letter-spacing: 3px; /* Adjust letter spacing for better readability */
+  }
+  
+  .pokemon-img {
+    margin-top: 1rem;
+    height: 150px;
+    max-height: 80%;
+  }
+  
+  .pokemon:hover {
+    background-image: radial-gradient(circle, #c2c2c5, #28256e); /* Radial gradient background */
+    cursor: pointer;
+}
+
+  
+  

@@ -1,0 +1,46 @@
+.pokemon-list-wrapper{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.pokemon-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.controls button{
+    margin-left: 1rem;
+    padding: 0.5rem 2rem;
+}  
+
+.controls button {
+    background-color: #6a5acd; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    margin: 1rem; /* Add margin for spacing between buttons */
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.controls button:hover {
+    background-color: #483d8b; /* Change background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.pokemonList{
+    margin: 20px auto; /* Add some space around the heading */
+    font-size: 1.5em; /* Increase font size for better prominence */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert text to uppercase for stylistic consistency */
+    color: #6c6e64; /* Adjust text color for better contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for depth */
+    border-bottom: 2px solid #333; /* Add a bottom border for separation */
+    padding-bottom: 10px; /* Add padding to the bottom to space out from the content */
+    letter-spacing: 3px; /* Adjust letter spacing for better readability */
+}
