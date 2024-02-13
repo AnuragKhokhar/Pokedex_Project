@@ -9,7 +9,7 @@ function App() {
     <div className='outer-pokedex'>
       <Link to="./" >
         <div className='pokwrp'>
-         <img className='pokeball' src="../pokeball.png" alt='Pokemon'/>  <h1 id="pokedex-heading" >Pokedex</h1>
+        <h1 id="pokedex-heading" >Pokedex</h1>
          </div>
       </Link>
       <CustomRoutes/>
